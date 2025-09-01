@@ -9,6 +9,6 @@ public class Fact{
   }
   public static void main(String[] args){
     long n=5;
-    System.out.println("Factorial of"+n+"is: "+compute(n));
+    System.out.println("Factorial of"+n+" is: "+compute(n));
   }
 }
