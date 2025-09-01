@@ -1,7 +1,7 @@
 public class Fact{
   public static long compute(long n){
     if(n<0) throw new IllegalArgumentException("Negative numbers not allowed");
-    int re=1;
+    int re= 1;
     for(int i=2;i<=n;i++){
       re*=i;
     }
